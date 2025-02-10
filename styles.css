@@ -1,0 +1,78 @@
+body{
+    font-family: 'Zain', sans-serif; 
+    font-weight: 100;
+    font-size: 18px;
+    background: #eaeaea;
+    margin:0;
+    padding: 0;
+}
+
+.header{
+	border-bottom: 1px;
+	border-color: #edeeee;
+	background: white;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+.header > div{
+    width: 600px;
+    margin:auto;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 56px;
+}
+
+
+.contenedor{
+    width: 600px;
+    margin: auto;
+}
+
+article{
+    border:1px solid #edeeee;
+    background: whitesmoke;
+    margin-bottom: 60px;
+    border-radius: 3px;
+}
+
+article > header{
+    padding: 0px 14px;
+}
+
+.title_post{
+overflow:hidden;
+width: 50%;
+float: left;
+}
+.title_contenedor{
+font-size: 18px;
+}
+.title_date{
+text-align: left;
+color:coral;
+font-size: 14px;
+margin-top: 8px;
+font-weight: bold;
+}
+.image_contenedor{
+border-bottom: 1px solid #eaeaea;
+border-top: 1px solid #eaeaea;
+}
+.comment_contenedor{
+padding: 0px 24px;
+font-weight: normal;
+}
+
+.comment_contenedor p span.hashtag{
+    font-weight: bold;
+    color:coral;
+}
+img{
+    max-width: 600px;
+}
+span{
+    font-size: 18px;
+    font-weight: 500;
+}
